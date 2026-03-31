@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "required": [
+    "launch_id",
+    "title",
+    "prd_summary"
+  ],
+  "properties": {
+    "launch_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "prd_summary": {
+      "type": "string"
+    },
+    "qa_summary": {
+      "type": "string"
+    },
+    "rollout_plan": {
+      "type": "string"
+    },
+    "dependency_notes": {
+      "type": "string"
+    },
+    "incident_context": {
+      "type": "string"
+    },
+    "owners_defined": {
+      "type": "boolean"
+    }
+  }
+}

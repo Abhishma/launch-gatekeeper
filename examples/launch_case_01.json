@@ -1,0 +1,10 @@
+{
+  "launch_id": "LAUNCH-001",
+  "title": "One-page checkout rollout",
+  "prd_summary": "Redesign shipping, payment, promo, and address steps for a one-page checkout.",
+  "qa_summary": "Core checkout happy path tested. Promo code edge cases not fully covered.",
+  "rollout_plan": "Roll out to 100% of traffic in 2 days.",
+  "dependency_notes": "Payment gateway migration still in progress.",
+  "incident_context": "Two payment-related incidents occurred in the past month.",
+  "owners_defined": true
+}

@@ -1,0 +1,10 @@
+{
+  "launch_id": "LAUNCH-004",
+  "title": "PDP cross-sell module",
+  "prd_summary": "Introduce cross-sell module on PDP for upsell.",
+  "qa_summary": "Core rendering tested; no tracking validation noted.",
+  "rollout_plan": "Roll out to 100% immediately after QA sign-off.",
+  "dependency_notes": "Analytics event spec updated last minute.",
+  "incident_context": "Tracking regressions occurred in similar module launch last quarter.",
+  "owners_defined": false
+}

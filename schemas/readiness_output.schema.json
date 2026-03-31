@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "required": [
+    "launch_id",
+    "status",
+    "readiness_band",
+    "risks",
+    "blockers",
+    "missing_controls",
+    "mitigation_suggestions",
+    "memo"
+  ],
+  "properties": {
+    "launch_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "review_ready",
+        "abstained"
+      ]
+    },
+    "readiness_band": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "missing_controls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mitigation_suggestions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "memo": {
+      "type": "string"
+    }
+  }
+}

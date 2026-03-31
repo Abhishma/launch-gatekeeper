@@ -1,0 +1,10 @@
+{
+  "launch_id": "LAUNCH-003",
+  "title": "Returns policy update",
+  "prd_summary": "Update returns policy messaging and exception handling.",
+  "qa_summary": "",
+  "rollout_plan": "",
+  "dependency_notes": "CX tooling changes may be required.",
+  "incident_context": "",
+  "owners_defined": false
+}

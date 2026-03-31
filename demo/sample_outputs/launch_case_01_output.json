@@ -1,0 +1,25 @@
+{
+  "launch_id": "LAUNCH-001",
+  "status": "review_ready",
+  "readiness_band": "low",
+  "risks": [
+    "dependency_unresolved",
+    "rollout_scope_too_broad",
+    "qa_coverage_gap",
+    "incident_repeat_risk"
+  ],
+  "blockers": [
+    "Payment migration dependency remains unresolved for a critical checkout launch",
+    "100% rollout is too broad given unresolved dependency and incomplete QA coverage"
+  ],
+  "missing_controls": [
+    "Promo code edge case QA coverage incomplete",
+    "No explicit phased rollout guardrails"
+  ],
+  "mitigation_suggestions": [
+    "Phase rollout instead of 100% launch",
+    "Close promo-code QA gaps before broad exposure",
+    "Define rollback and monitoring guardrails tied to payment incidents"
+  ],
+  "memo": "Readiness is low. Launch scope is broad relative to current risk posture. Human review required before any decision."
+}

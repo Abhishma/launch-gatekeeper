@@ -1,0 +1,10 @@
+{
+  "launch_id": "LAUNCH-002",
+  "title": "Search facet update",
+  "prd_summary": "Launch 8 new search filters for improved discovery.",
+  "qa_summary": "Search filter behavior tested on desktop only.",
+  "rollout_plan": "Phased rollout to 10%, then 30%, then 100%.",
+  "dependency_notes": "Search backend incident unresolved but mitigations documented.",
+  "incident_context": "Recent search latency incident; no relevance incident in last 30 days.",
+  "owners_defined": true
+}
